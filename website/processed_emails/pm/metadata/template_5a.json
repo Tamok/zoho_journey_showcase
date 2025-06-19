@@ -1,0 +1,39 @@
+{
+  "email_number": "5a",
+  "images": [
+    {
+      "original": "869189000010973118_2_1750214455942_(2).png",
+      "processed": "5_869189000010973118_2_1750214455942_(2).png",
+      "path": "../processed_emails/pm/images/5_869189000010973118_2_1750214455942_(2).png"
+    },
+    {
+      "original": "869189000010973118_3_1750214456003_zcsclwgtfb5.png",
+      "processed": "5_869189000010973118_3_1750214456003_zcsclwgtfb5.png",
+      "path": "../processed_emails/pm/images/5_869189000010973118_3_1750214456003_zcsclwgtfb5.png"
+    },
+    {
+      "original": "869189000010973118_4_1750214456068_zcsclwgtlin5.png",
+      "processed": "5_869189000010973118_4_1750214456068_zcsclwgtlin5.png",
+      "path": "../processed_emails/pm/images/5_869189000010973118_4_1750214456068_zcsclwgtlin5.png"
+    },
+    {
+      "original": "869189000010973118_5_1750214456188_zcsclwgtyt5.png",
+      "processed": "5_869189000010973118_5_1750214456188_zcsclwgtyt5.png",
+      "path": "../processed_emails/pm/images/5_869189000010973118_5_1750214456188_zcsclwgtyt5.png"
+    },
+    {
+      "original": "869189000010973118_6_1750214456238_zcsclwgtinsta5.png",
+      "processed": "5_869189000010973118_6_1750214456238_zcsclwgtinsta5.png",
+      "path": "../processed_emails/pm/images/5_869189000010973118_6_1750214456238_zcsclwgtinsta5.png"
+    },
+    {
+      "original": "869189000010973118_7_1750214456289_(4).png",
+      "processed": "5_869189000010973118_7_1750214456289_(4).png",
+      "path": "../processed_emails/pm/images/5_869189000010973118_7_1750214456289_(4).png"
+    }
+  ],
+  "original_file": "D:\\Coding Shenanigans\\PaCEZohoStuff\\zoho_journey_showcase\\journeys\\pm\\template (5).zip",
+  "is_reminder": true,
+  "original_email": 5,
+  "program": "pm"
+}

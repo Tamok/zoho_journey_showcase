@@ -1,0 +1,58 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Process PM Templates",
+			"command": "python",
+			"args": [
+				"scripts/process_templates.py",
+				"pm"
+			],
+			"group": "build",
+			"problemMatcher": []
+		},
+		{
+			"type": "shell",
+			"label": "Serve Website",
+			"command": "python",
+			"args": [
+				"-m",
+				"http.server",
+				"8080",
+				"--directory",
+				"website"
+			],
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"type": "shell",
+			"label": "Open Website",
+			"command": "start",
+			"args": [
+				"http://localhost:8080"
+			],
+			"group": "test",
+			"dependsOn": "Serve Website",
+			"problemMatcher": []
+		},
+		{
+			"type": "shell",
+			"label": "Quick Setup",
+			"command": "powershell",
+			"args": [
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"setup.ps1"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": []
+		}
+	]
+}

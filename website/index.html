@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoho Campaigns Journey Showcase</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">        <header class="header">
+            <div class="header-content">
+                <div class="header-left">
+                    <h1><i class="fas fa-envelope"></i> Zoho Campaigns Journey Showcase</h1>
+                    <div class="day-counter" id="day-counter">
+                        <div class="day-display">
+                            <span class="day-label">Day</span>
+                            <span class="day-number" id="day-number">0</span>
+                        </div>
+                        <div class="day-status" id="day-status">Journey Start</div>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="program-selector">
+                        <label for="program-select">Program: </label>
+                        <select id="program-select">
+                            <option value="pm">Project Management</option>
+                            <option value="hrm" disabled>Human Resources Management (Coming Soon)</option>
+                        </select>
+                    </div>
+                    <img src="https://www.professional.ucsb.edu/sites/default/files/2025-05/Logo_PaCE_2025_Short.png" alt="UCSB PaCE Logo" class="pace-logo">
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="sidebar">                <div class="journey-controls">
+                    <h3><i class="fas fa-play-circle"></i> Journey Simulation</h3>
+                    <button id="reset-journey" class="btn btn-secondary">
+                        <i class="fas fa-redo"></i> Reset Journey
+                    </button>
+                    
+                    <button id="advance-day" class="btn btn-primary">
+                        <i class="fas fa-forward"></i> Advance Day
+                    </button>
+                    
+                    <div class="autoplay-controls">
+                        <label for="autoplay-mode">Autoplay Mode:</label>
+                        <select id="autoplay-mode" class="autoplay-selector">
+                            <option value="random_mix">Random Mix</option>
+                            <option value="never_open">Never Open</option>
+                            <option value="always_open">Always Open</option>
+                        </select>
+                        
+                        <button id="auto-play" class="btn btn-primary">
+                            <i class="fas fa-play"></i> Auto Play
+                        </button>
+                    </div>                    <div class="speed-control">
+                        <label for="speed-slider">Speed: </label>
+                        <input type="range" id="speed-slider" min="1" max="11" value="5">
+                        <span id="speed-display">5x</span>
+                    </div>
+                </div>
+
+                <div class="journey-visualization">
+                    <h3><i class="fas fa-sitemap"></i> Journey Flow</h3>
+                    <div id="journey-tree"></div>
+                </div>
+
+                <div class="timeline">
+                    <h3><i class="fas fa-clock"></i> Timeline</h3>
+                    <div id="timeline-container"></div>
+                </div>
+            </div>
+
+            <div class="inbox-container">
+                <div class="inbox-header">
+                    <h2><i class="fas fa-inbox"></i> Simulated Inbox</h2>
+                    <div class="inbox-stats">
+                        <span class="stat">
+                            <i class="fas fa-envelope"></i> 
+                            <span id="total-emails">0</span> Total
+                        </span>
+                        <span class="stat">
+                            <i class="fas fa-envelope-open"></i> 
+                            <span id="opened-emails">0</span> Opened
+                        </span>
+                        <span class="stat">
+                            <i class="fas fa-mouse-pointer"></i> 
+                            <span id="clicked-emails">0</span> Clicked
+                        </span>
+                    </div>
+                </div>
+
+                <div class="inbox-list" id="inbox-list">
+                    <!-- Email items will be dynamically generated here -->
+                </div>
+            </div>
+
+            <div class="email-preview" id="email-preview">
+                <div class="email-preview-header">
+                    <h3 id="email-subject">Select an email to preview</h3>
+                    <div class="email-actions">
+                        <button id="mark-opened" class="btn btn-small" data-action="mark-opened">
+                            <i class="fas fa-envelope-open"></i> Mark as Opened
+                        </button>                        <button id="mark-clicked" class="btn btn-small" data-action="mark-clicked">
+                            <i class="fas fa-mouse-pointer"></i> Mark as Clicked
+                        </button>
+                        <button id="open-new-tab" class="btn btn-small">
+                            <i class="fas fa-external-link-alt"></i> Open in New Tab
+                        </button>
+                        <button id="close-preview" class="btn btn-small btn-secondary">
+                            <i class="fas fa-times"></i> Close
+                        </button>
+                    </div>
+                </div>
+                <div class="email-content" id="email-content">
+                    <div class="placeholder">
+                        <i class="fas fa-envelope fa-3x"></i>
+                        <p>Select an email from the inbox to view its content</p>
+                    </div>
+                </div>
+            </div>
+        </div>        <div class="bottom-bar" id="bottom-bar"></div>
+    </div>
+
+    <script src="scripts/journey-data.js"></script>
+    <script src="scripts/email-processor.js"></script>
+    <script src="scripts/journey-simulator.js"></script>
+    <script src="scripts/journey-visualization.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

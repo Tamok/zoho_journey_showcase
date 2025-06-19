@@ -1,0 +1,44 @@
+{
+  "email_number": 3,
+  "images": [
+    {
+      "original": "869189000010973068_1_1750214412265_(4).png",
+      "processed": "3_869189000010973068_1_1750214412265_(4).png",
+      "path": "../processed_emails/pm/images/3_869189000010973068_1_1750214412265_(4).png"
+    },
+    {
+      "original": "869189000010973068_3_1750214412438_(2).png",
+      "processed": "3_869189000010973068_3_1750214412438_(2).png",
+      "path": "../processed_emails/pm/images/3_869189000010973068_3_1750214412438_(2).png"
+    },
+    {
+      "original": "869189000010973068_4_1750214412492_zcsclwgtfb5.png",
+      "processed": "3_869189000010973068_4_1750214412492_zcsclwgtfb5.png",
+      "path": "../processed_emails/pm/images/3_869189000010973068_4_1750214412492_zcsclwgtfb5.png"
+    },
+    {
+      "original": "869189000010973068_5_1750214412544_zcsclwgtlin5.png",
+      "processed": "3_869189000010973068_5_1750214412544_zcsclwgtlin5.png",
+      "path": "../processed_emails/pm/images/3_869189000010973068_5_1750214412544_zcsclwgtlin5.png"
+    },
+    {
+      "original": "869189000010973068_6_1750214412615_zcsclwgtyt5.png",
+      "processed": "3_869189000010973068_6_1750214412615_zcsclwgtyt5.png",
+      "path": "../processed_emails/pm/images/3_869189000010973068_6_1750214412615_zcsclwgtyt5.png"
+    },
+    {
+      "original": "869189000010973068_7_1750214412695_zcsclwgtinsta5.png",
+      "processed": "3_869189000010973068_7_1750214412695_zcsclwgtinsta5.png",
+      "path": "../processed_emails/pm/images/3_869189000010973068_7_1750214412695_zcsclwgtinsta5.png"
+    },
+    {
+      "original": "869189000010973068_2_1750214412348_min.jpeg",
+      "processed": "3_869189000010973068_2_1750214412348_min.jpeg",
+      "path": "../processed_emails/pm/images/3_869189000010973068_2_1750214412348_min.jpeg"
+    }
+  ],
+  "original_file": "D:\\Coding Shenanigans\\PaCEZohoStuff\\zoho_journey_showcase\\journeys\\pm\\template (3).zip",
+  "is_reminder": false,
+  "original_email": null,
+  "program": "pm"
+}

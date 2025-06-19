@@ -1,0 +1,34 @@
+{
+  "name": "zoho-campaigns-journey-showcase",
+  "version": "1.0.0",
+  "description": "Interactive showcase for Zoho Campaigns email workflows with journey branching simulation",
+  "main": "website/index.html",
+  "scripts": {
+    "setup": "powershell -ExecutionPolicy Bypass -File setup.ps1",
+    "process-pm": "python scripts/process_templates.py pm",
+    "process-hrm": "python scripts/process_templates.py hrm",
+    "serve": "python -m http.server 8080 --directory website",
+    "open": "start website/index.html"
+  },
+  "keywords": [
+    "zoho",
+    "campaigns",
+    "email-marketing",
+    "journey",
+    "workflow",
+    "showcase",
+    "demonstration"
+  ],
+  "author": "Your Organization",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "python": ">=3.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "local"
+  },
+  "homepage": "website/index.html"
+}

@@ -1,0 +1,54 @@
+{
+  "email_number": 4,
+  "images": [
+    {
+      "original": "869189000010973097_2_1750214448470_(2).png",
+      "processed": "4_869189000010973097_2_1750214448470_(2).png",
+      "path": "../processed_emails/pm/images/4_869189000010973097_2_1750214448470_(2).png"
+    },
+    {
+      "original": "869189000010973097_3_1750214448535_zcsclwgtfb5.png",
+      "processed": "4_869189000010973097_3_1750214448535_zcsclwgtfb5.png",
+      "path": "../processed_emails/pm/images/4_869189000010973097_3_1750214448535_zcsclwgtfb5.png"
+    },
+    {
+      "original": "869189000010973097_4_1750214448591_zcsclwgtlin5.png",
+      "processed": "4_869189000010973097_4_1750214448591_zcsclwgtlin5.png",
+      "path": "../processed_emails/pm/images/4_869189000010973097_4_1750214448591_zcsclwgtlin5.png"
+    },
+    {
+      "original": "869189000010973097_5_1750214448666_zcsclwgtyt5.png",
+      "processed": "4_869189000010973097_5_1750214448666_zcsclwgtyt5.png",
+      "path": "../processed_emails/pm/images/4_869189000010973097_5_1750214448666_zcsclwgtyt5.png"
+    },
+    {
+      "original": "869189000010973097_6_1750214448722_zcsclwgtinsta5.png",
+      "processed": "4_869189000010973097_6_1750214448722_zcsclwgtinsta5.png",
+      "path": "../processed_emails/pm/images/4_869189000010973097_6_1750214448722_zcsclwgtinsta5.png"
+    },
+    {
+      "original": "869189000010973097_7_1750214448783_(4).png",
+      "processed": "4_869189000010973097_7_1750214448783_(4).png",
+      "path": "../processed_emails/pm/images/4_869189000010973097_7_1750214448783_(4).png"
+    },
+    {
+      "original": "inkcanva_869189000003002167.png",
+      "processed": "4_inkcanva_869189000003002167.png",
+      "path": "../processed_emails/pm/images/4_inkcanva_869189000003002167.png"
+    },
+    {
+      "original": "inkcanva_869189000003223033.png",
+      "processed": "4_inkcanva_869189000003223033.png",
+      "path": "../processed_emails/pm/images/4_inkcanva_869189000003223033.png"
+    },
+    {
+      "original": "inkcanva_869189000003223041.png",
+      "processed": "4_inkcanva_869189000003223041.png",
+      "path": "../processed_emails/pm/images/4_inkcanva_869189000003223041.png"
+    }
+  ],
+  "original_file": "D:\\Coding Shenanigans\\PaCEZohoStuff\\zoho_journey_showcase\\journeys\\pm\\template (4).zip",
+  "is_reminder": false,
+  "original_email": null,
+  "program": "pm"
+}
