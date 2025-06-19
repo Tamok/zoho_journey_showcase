@@ -2,6 +2,56 @@
 
 A comprehensive mini-website for showcasing Zoho Campaigns Workflows to stakeholders with interactive inbox simulation, branch visualization, and automated email sequence demonstration.
 
+## Live Demo
+
+🚀 **View the live demo at**: `https://tamok.github.io/zoho_journey_showcase/`
+
+*(Replace YOUR_USERNAME with your actual GitHub username)*
+
+## Deployment
+
+### GitHub Pages (Recommended)
+
+This project is configured for automatic deployment to GitHub Pages:
+
+1. **Fork or clone this repository** to your GitHub account
+2. **Update the repository URLs** in `package.json`:
+   ```json
+   "repository": {
+     "url": "https://github.com/YOUR_USERNAME/zoho_journey_showcase.git"
+   },
+   "homepage": "https://YOUR_USERNAME.github.io/zoho_journey_showcase/"
+   ```
+3. **Enable GitHub Pages** in your repository settings:
+   - Go to Settings → Pages
+   - Source: "GitHub Actions"
+4. **Push to main/master branch** - the site will automatically build and deploy
+5. **Access your site** at `https://YOUR_USERNAME.github.io/zoho_journey_showcase/`
+
+The GitHub Actions workflow will:
+- Install Python dependencies
+- Process email templates automatically
+- Deploy the website to GitHub Pages
+
+### Local Development
+
+For local testing and development:
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/zoho_journey_showcase.git
+cd zoho_journey_showcase
+
+# Process templates
+python scripts/process_templates.py pm
+
+# Serve locally
+python -m http.server 8080 --directory website
+
+# Open in browser
+# Visit http://localhost:8080
+```
+
 ## Overview
 
 This tool creates an interactive demonstration of email marketing journeys, showing how different user behaviors (opening/clicking emails) trigger different branches in the campaign workflow. It's designed to be easily reusable for different programs and campaigns.

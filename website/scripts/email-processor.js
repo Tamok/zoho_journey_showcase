@@ -662,9 +662,10 @@ class EmailProcessor {
         return originalContent;
     }    /**
      * Load processed HTML template from file
-     */    async loadProcessedTemplate(programType, emailNumber) {
+     */
+    async loadProcessedTemplate(programType, emailNumber) {
         try {
-            const templatePath = `/processed_emails/${programType}/emails/template_${emailNumber}.html`;
+            const templatePath = `processed_emails/${programType}/emails/template_${emailNumber}.html`;
             const response = await fetch(templatePath);
             if (!response.ok) {
                 throw new Error(`Failed to load template: ${templatePath}`);

@@ -25,10 +25,9 @@
   "dependencies": {},
   "engines": {
     "python": ">=3.7"
-  },
-  "repository": {
+  },  "repository": {
     "type": "git",
-    "url": "local"
+    "url": "https://github.com/tamok/zoho_journey_showcase.git"
   },
-  "homepage": "website/index.html"
+  "homepage": "https://tamok.github.io/zoho_journey_showcase/"
 }
